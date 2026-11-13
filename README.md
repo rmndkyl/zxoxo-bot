@@ -190,6 +190,12 @@ zxoxo-bot/
 | `forbidden` | header Origin ditolak | pastikan request lewat `src/api.py` (Origin/Referer sudah diset) |
 | `http_5xx` | server sedang gangguan | bot retry sekali; kalau tetap gagal, jalankan lagi nanti |
 
+## Bukti run (dari bot sendiri, bukan mockup)
+
+![ZXOXO bot daily run](docs/screenshots/run.png)
+
+Label akun di-mask (`acc01`–`acc05`). Angka di kartu itu hasil sungguhan dari `data/last-run.txt`.
+
 ## Status verifikasi
 
 | Bagian | Status | Bukti |
