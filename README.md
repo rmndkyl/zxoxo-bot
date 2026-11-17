@@ -1,4 +1,25 @@
-# ZXOXO Bot — LYID
+# ZXOXO Bot - Mining + Access Signal Farmer
+
+**Versi:** 1.0.0 · **Harga:** Rp 65.000 (~$4) · **Kontak pembelian:** [@rmndkyl](https://t.me/rmndkyl)
+
+Bot farming untuk **ZXOXO** (`zxoxo.xyz`), test network mining bertema LayerZero. Bot menjalankan pass harian per akun: **claim ZXO → beli rig → overclock → jump (kalau layak)**, plus memantau skor **access signal** (whitelist/access packet).
+
+## Kebutuhan
+
+| Item | Detail |
+|---|---|
+| Runtime | Node.js 18+ |
+| Wallet | EVM / sesuai chain proyek (kamu sendiri) |
+| Proxy | tidak perlu |
+| Captcha | tidak perlu |
+| Akses | akun proyek yang kamu kelola sendiri |
+
+## Pembayaran
+
+E-Wallet: DANA / GoPay / ShopeePay · Bank: BCA / Seabank · Crypto: contact for wallet address.
+Pembeli menghubungi [@rmndkyl](https://t.me/rmndkyl), kirim bukti transfer, lalu terima license key.
+
+---
 
 Bot farming untuk **ZXOXO** (`zxoxo.xyz`), test network mining bertema LayerZero.
 Bot menjalankan pass harian per akun: **claim ZXO → beli rig → overclock → jump (kalau layak)**,
@@ -174,7 +195,6 @@ zxoxo-bot/
 ├── CEK-ACCESS.bat          # cek whitelist cepat
 ├── PANDUAN-MANUAL.md       # arti menu + arti pesan error
 ├── README.md
-└── CHECKPOINT.md
 ```
 
 ## Troubleshooting
@@ -207,7 +227,6 @@ Label akun di-mask (`acc01`–`acc05`). Angka di kartu itu hasil sungguhan dari 
 | Misi (+150 ZXO) | **Verified** | `mined` naik tepat 150 setelah misi Overclock |
 | `buy` (rig baru) | **Belum** | saldo belum mencapai 800 ZXO di akun mana pun saat build |
 | Humanisasi | **Verified (unit)** | tabel `--personas` + 5 draw jeda per wallet berbeda |
-| Cron harian | lihat `CHECKPOINT.md` | — |
 
 `buy` belum pernah tereksekusi karena belum ada akun yang punya 800 ZXO. Kodenya memakai ladder harga
 yang sama dengan bundle, dan akan jalan sendiri begitu saldo cukup.
